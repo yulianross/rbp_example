@@ -1,0 +1,16 @@
+{
+  "name": "rbp_example",
+  "version": "1.0.0",
+  "description": "raspberrpy client app",
+  "main": "client.js",
+  "scripts": {
+	"start": "sudo node client.js",
+    	"test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "javier aldana",
+  "license": "ISC",
+  "dependencies": {
+    "rpi-gpio": "^0.7.0",
+    "socket.io-client": "^1.6.0"
+  }
+}
